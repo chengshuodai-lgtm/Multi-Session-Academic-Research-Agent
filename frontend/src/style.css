@@ -1,0 +1,67 @@
+/* 基础样式重置 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f5f5;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+/* Element Plus 样式调整 */
+.el-dialog {
+  border-radius: 10px;
+}
+
+.el-dialog__header {
+  border-bottom: 1px solid #eaeaea;
+  margin-right: 0;
+  padding: 20px 25px;
+}
+
+.el-dialog__body {
+  padding: 25px;
+}
+
+.el-dialog__footer {
+  border-top: 1px solid #eaeaea;
+  padding: 20px 25px;
+}
+
+.el-button--text {
+  padding: 8px;
+}
+
+.el-button--text:hover {
+  background-color: #f0f0f0;
+}
+
+.el-select {
+  width: 120px;
+}
+
+.el-input__inner {
+  border-radius: 6px;
+}
+
+.el-textarea__inner {
+  border-radius: 6px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  body {
+    padding: 0;
+  }
+  
+  .el-dialog {
+    width: 90%;
+    margin-top: 5vh !important;
+  }
+}

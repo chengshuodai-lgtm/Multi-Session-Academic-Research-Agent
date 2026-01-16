@@ -1,0 +1,247 @@
+# 依赖目录
+node_modules/
+.pnp/
+.pnp.js
+.yarn/install-state.gz
+
+# 测试相关
+coverage/
+.nyc_output/
+
+# 构建输出
+dist/
+build/
+out/
+
+# 环境变量
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 日志文件
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# 运行时数据
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# 缓存目录
+.cache/
+
+# IDE相关
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.temp
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# Python相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# 单元测试/覆盖率报告
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+.sage/
+
+# 环境
+.env
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# 后端特定
+backend/__pycache__/
+backend/*.db
+backend/instance/
+backend/.venv/
+backend/alembic/versions/*.py
+!backend/alembic/versions/__init__.py
+!backend/alembic/versions/001_initial_migration.py
+
+# 前端特定
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# 上传文件
+uploads/
+media/
+
+# 文档
+docs/_build/
+
+# 包文件
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# 字体文件
+*.eot
+*.otf
+*.ttf
+*.woff
+*.woff2
+
+# 图片文件
+*.bmp
+*.gif
+*.ico
+*.jpeg
+*.jpg
+*.png
+*.svg
+*.webp
+
+# 视频文件
+*.avi
+*.flv
+*.m4v
+*.mkv
+*.mov
+*.mp4
+*.mpeg
+*.mpg
+*.webm
+*.wmv
+
+# 音频文件
+*.aac
+*.flac
+*.m4a
+*.mp3
+*.oga
+*.ogg
+*.wav
+*.wma
+
+# 文档文件
+*.doc
+*.docx
+*.pdf
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+
+# 配置文件（但排除示例配置）
+*.config.js
+*.config.ts
+!*.example.*
+!*.sample.*
+
+# 锁文件
+package-lock.json
+yarn.lock
+pipfile.lock
+poetry.lock
+
+# 开发工具
+.eslintcache
+.stylelintcache
+
+# 性能日志
+*.pid
+*.pid.lock
+
+# 系统文件
+*.sys
+*.dll
+*.exe
+
+# 备份文件
+*.bak
+*.backup
+*.old
+
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
