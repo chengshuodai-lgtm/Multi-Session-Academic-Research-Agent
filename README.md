@@ -2,6 +2,10 @@
 
 A full-stack academic research agent powered by DeepSeek LLM and LangChain, featuring intelligent conversation management, streaming responses, and persistent session storage. Built with FastAPI backend and Vue 3/TypeScript frontend.
 
+## Screenshots
+
+![Project Screenshot](./screenshots/demo.png)
+
 ## Features
 
 - **Intelligent Conversation Management**: LangChain-powered contextual Q&A system with conversation memory
